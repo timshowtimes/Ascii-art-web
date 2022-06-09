@@ -1,0 +1,16 @@
+p{
+    color: orange;
+}
+a{
+    font-size: 50px;
+    color: rgb(175, 175, 175);
+}
+body {
+    background-image: url("textured.jpg");
+    background-size: 4500px 2500px;
+    text-align: center;
+    position: relative;
+    /* top: 70px; */
+    font-family: monospace;
+    font-size: 90px;
+}

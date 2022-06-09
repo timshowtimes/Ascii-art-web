@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="icon" href="../static/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div>
+  <form method="POST" action="/ascii-art">  
+    <h1 class="main-title"> Ascii-Art-Web </h1>
+    <div>
+    <h1 class="field-title">Please enter text you want to see:</h1>
+      <div class="text-area">
+        <textarea class="text-style" name="text" rows="5", cols="50"></textarea>
+        <div class="cft">
+          <label><h3> Choose Font Type and enjoy </h3></label>
+          <form action="#">
+            <select name="fontType">
+              <option value="standard">Standard</option>
+              <option value="shadow">Shadow</option>
+              <option value="thinkertoy">Thinkertoy</option>
+            </select>
+          </form>
+          <input name="submit" class="submit" type="submit" value="Submit"/>
+        </div>
+        <input name="submit" class="btn" type="submit" value="Download"/>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+body {
+    background-image: url("textured.jpg");
+    background-size: 4500px 2500px;
+}
+
+header {
+    color: rgb(195, 190, 190);
+}
+
+#maincontent {
+    position: relative;
+    overflow: auto;
+    background: #0000;
+    border: 3px #0000 solid;
+    margin-top: 90px;
+}
+
+pre{
+    color: orange;
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 80px;
+}
+.main-title { 
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: monospace;
+    font-size: 90px;
+    color: rgb(195, 190, 190);
+}
+
+.text-area {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.field-title {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(238, 157, 6, 0.72);
+}
+
+label {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(238, 157, 6, 0.88)
+}
+
+.btn {
+    background-color: rgb(226, 128, 1);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(231, 177, 0);
+}
+
+.cft {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.submit {
+    font-size: 20px;
+    margin-left: 60px; 
+}
+
+select {
+    font-size: 20px;
+}
+
+.text-style {
+    font-size: 20px;
+}  
